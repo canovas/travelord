@@ -12,11 +12,13 @@ function getPage(pathname: string, search: string) {
   // Respect Vite's base path for routing
   const base = import.meta.env.BASE_URL.replace(/\/$/, '')
 
-  // SPA Redirect Check: if we have ?p=... use that as the path
+  // 1. Handle GitHub Pages redirection (from 404.html)
   const params = new URLSearchParams(search)
   const redirectedPath = params.get('p')
 
+  // 2. Resolve final relative path
   let path = redirectedPath || (pathname.startsWith(base) ? pathname.replace(base, '') : pathname)
+  if (!path.startsWith('/')) path = '/' + path
 
   if (path.startsWith('/stop/')) {
     const [, , dayId, stopId] = path.split('/')
@@ -32,7 +34,12 @@ function getPage(pathname: string, search: string) {
 export function App() {
   const [isReady, setIsReady] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const [location, setLocation] = useState({
+    pathname: window.location.pathname,
+    search: window.location.search,
+  })
 
+  // Load content
   useEffect(() => {
     contentRepository
       .load()
@@ -41,6 +48,51 @@ export function App() {
         setError(err.message)
       })
   }, [])
+
+  // SPA Routing Listeners
+  useEffect(() => {
+    const handlePopState = () => {
+      setLocation({
+        pathname: window.location.pathname,
+        search: window.location.search,
+      })
+    }
+
+    const handleClick = (e: MouseEvent) => {
+      const anchor = (e.target as HTMLElement).closest('a')
+      if (
+        anchor &&
+        anchor instanceof HTMLAnchorElement &&
+        anchor.host === window.location.host &&
+        !anchor.hasAttribute('download') &&
+        anchor.target !== '_blank'
+      ) {
+        e.preventDefault()
+        window.history.pushState(null, '', anchor.href)
+        handlePopState()
+      }
+    }
+
+    window.addEventListener('popstate', handlePopState)
+    document.addEventListener('click', handleClick)
+
+    return () => {
+      window.removeEventListener('popstate', handlePopState)
+      document.removeEventListener('click', handleClick)
+    }
+  }, [])
+
+  // Cleanup redirected URL if present
+  useEffect(() => {
+    if (isReady && new URLSearchParams(window.location.search).has('p')) {
+      const params = new URLSearchParams(window.location.search)
+      const cleanPath = params.get('p') || '/'
+      params.delete('p')
+      const newSearch = params.toString()
+      const newUrl = cleanPath + (newSearch ? `?${newSearch}` : '') + window.location.hash
+      window.history.replaceState(null, '', newUrl)
+    }
+  }, [isReady])
 
   if (error) {
     return (
@@ -61,5 +113,5 @@ export function App() {
     )
   }
 
-  return <Layout>{getPage(window.location.pathname, window.location.search)}</Layout>
+  return <Layout>{getPage(location.pathname, location.search)}</Layout>
 }
