@@ -1,0 +1,17 @@
+[
+  {
+    "id": "acc-cahernagarry-house",
+    "name": "Cahernagarry House",
+    "category": "house",
+    "description": "Nuestra base de operaciones en Loughrea, situada en el tranquilo entorno de Cahernagarry.",
+    "location": { "latitude": 53.2016, "longitude": -8.5711, "locality": "Loughrea" },
+    "images": [
+      {
+        "id": "img-house-1",
+        "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1200",
+        "alt": "Casa rural en el campo irlandés",
+        "caption": "Entorno de Cahernagarry"
+      }
+    ]
+  }
+]

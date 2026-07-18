@@ -1,0 +1,9 @@
+[
+  {
+    "id": "trans-shannon-airport",
+    "name": "Aeropuerto de Shannon",
+    "category": "airport",
+    "description": "Llegada y salida de los vuelos FR1323 y FR1322.",
+    "location": { "latitude": 52.6997, "longitude": -8.9147, "locality": "Shannon" }
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "id": "day09",
+  "title": "Regreso a Alicante",
+  "date": "23/08/2026",
+  "summary": "Vuelo de regreso desde Shannon.",
+  "timeline": [
+    { "time": "08:45", "title": "🚗 Devolución coche Shannon" },
+    { "time": "10:50", "title": "✈️ Salida del vuelo" },
+    { "time": "14:35", "title": "🛬 Llegada a Alicante" }
+  ],
+  "stops": [
+    { "entityId": "poi-antes-de-salir-de-la-casa" },
+    { "entityId": "poi-antes-de-devolver-el-coche" }
+  ]
+}

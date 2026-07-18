@@ -1,0 +1,18 @@
+{
+  "id": "day03",
+  "title": "Connemara y Kylemore Abbey",
+  "date": "17/08/2026",
+  "summary": "Naturaleza salvaje y la majestuosidad de Kylemore Abbey.",
+  "timeline": [
+    { "time": "08:00", "title": "☕ Desayuno" },
+    { "time": "10:00", "title": "🏰 Kylemore Abbey" },
+    { "time": "13:00", "title": "🍽️ Comida en Letterfrack" },
+    { "time": "15:00", "title": "🌲 Connemara National Park" },
+    { "time": "19:00", "title": "🏡 Regreso al alojamiento" }
+  ],
+  "stops": [
+    { "entityId": "poi-kylemore-abbey" },
+    { "entityId": "poi-letterfrack" },
+    { "entityId": "poi-connemara-national-park" }
+  ]
+}
