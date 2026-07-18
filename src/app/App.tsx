@@ -8,10 +8,15 @@ import { StopDetailPage } from '../pages/Stop/StopDetailPage'
 import { contentRepository } from '../services/ContentRepository'
 import { EmptyDay } from '../components/common/EmptyDay'
 
-function getPage(pathname: string) {
+function getPage(pathname: string, search: string) {
   // Respect Vite's base path for routing
   const base = import.meta.env.BASE_URL.replace(/\/$/, '')
-  const path = pathname.startsWith(base) ? pathname.replace(base, '') : pathname
+
+  // SPA Redirect Check: if we have ?p=... use that as the path
+  const params = new URLSearchParams(search)
+  const redirectedPath = params.get('p')
+
+  let path = redirectedPath || (pathname.startsWith(base) ? pathname.replace(base, '') : pathname)
 
   if (path.startsWith('/stop/')) {
     const [, , dayId, stopId] = path.split('/')
@@ -56,5 +61,5 @@ export function App() {
     )
   }
 
-  return <Layout>{getPage(window.location.pathname)}</Layout>
+  return <Layout>{getPage(window.location.pathname, window.location.search)}</Layout>
 }
