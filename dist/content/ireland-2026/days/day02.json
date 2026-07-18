@@ -1,0 +1,24 @@
+{
+  "id": "day02",
+  "title": "Galway City",
+  "date": "16/08/2026",
+  "summary": "Descubrir Galway a pie, disfrutar de su ambiente y el Latin Quarter.",
+  "timeline": [
+    { "time": "08:00", "title": "☕ Desayuno en la casa" },
+    { "time": "09:00", "title": "🚗 Salida hacia Galway" },
+    { "time": "10:15", "title": "🌳 Eyre Square" },
+    { "time": "10:45", "title": "🚶 Shop Street" },
+    { "time": "11:30", "title": "🍀 Latin Quarter" },
+    { "time": "12:15", "title": "🌊 Spanish Arch" },
+    { "time": "13:30", "title": "🍽️ Comida en un pub tradicional" },
+    { "time": "15:00", "title": "⛪ Galway Cathedral" },
+    { "time": "19:15", "title": "🏡 Regreso al alojamiento" }
+  ],
+  "stops": [
+    { "entityId": "poi-eyre-square" },
+    { "entityId": "poi-shop-street" },
+    { "entityId": "poi-latin-quarter" },
+    { "entityId": "poi-spanish-arch" },
+    { "entityId": "poi-galway-cathedral" }
+  ]
+}

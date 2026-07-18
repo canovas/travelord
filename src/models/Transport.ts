@@ -17,5 +17,7 @@ export interface Transport {
   category: TransportCategory
   location?: GeoLocation
   description?: string
+  address?: string
+  mapsUrl?: string
   images?: Image[]
 }

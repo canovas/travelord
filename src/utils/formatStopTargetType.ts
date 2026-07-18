@@ -5,6 +5,8 @@ const labels: Record<Stop['target']['type'], string> = {
   foodVenue: 'Comida y bebida',
   pointOfInterest: 'Lugar',
   transport: 'Transporte',
+  shopping: 'Tienda / Compras',
+  info: 'Evento',
 }
 
 export function formatStopTargetType(type: Stop['target']['type']): string {

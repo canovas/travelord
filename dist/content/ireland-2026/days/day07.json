@@ -1,0 +1,17 @@
+{
+  "id": "day07",
+  "title": "Loop Head y Kilkee",
+  "date": "21/08/2026",
+  "summary": "Acantilados salvajes y el faro de Loop Head.",
+  "timeline": [
+    { "time": "10:45", "title": "🌊 Kilkee" },
+    { "time": "11:30", "title": "📸 Kilkee Cliffs" },
+    { "time": "14:00", "title": "🗼 Loop Head Lighthouse" }
+  ],
+  "stops": [
+    { "entityId": "poi-kilkee" },
+    { "entityId": "poi-kilkee-cliffs" },
+    { "entityId": "poi-loop-head-lighthouse" },
+    { "entityId": "poi-miradores-de-loop-head" }
+  ]
+}

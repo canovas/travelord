@@ -1,13 +1,25 @@
-import { days } from '../content/days'
-import { accommodations, pointsOfInterest, stops, transportLocations } from '../content/stops'
-import { trip } from '../content/trip'
-import type { Accommodation, Day, FoodVenue, PointOfInterest, Stop, StopTarget, Transport, Trip } from '../models'
+import { contentRepository, ENTITY_MAP_KEYS } from './ContentRepository'
+import { calculateDistance } from '../utils/calculateDistance'
+import type {
+  Accommodation,
+  Day,
+  FoodVenue,
+  Image,
+  PointOfInterest,
+  Stop,
+  StopTarget,
+  Transport,
+  Trip,
+} from '../models'
+import type { ShoppingLocation } from '../models/ShoppingLocation'
 
-export type StopDestination = Accommodation | FoodVenue | PointOfInterest | Transport
+export type StopDestination = Accommodation | FoodVenue | PointOfInterest | Transport | ShoppingLocation
 
 export type ResolvedStop = {
   stop: Stop
   title: string
+  image?: Image
+  distanceFromBase?: number
 }
 
 export type StopDetail = {
@@ -15,34 +27,63 @@ export type StopDetail = {
   stop: Stop
   destination?: StopDestination
   nextStop?: ResolvedStop
+  distanceFromBase?: number
 }
 
 function getDestination(target: StopTarget): StopDestination | undefined {
-  const collections: Record<StopTarget['type'], StopDestination[]> = {
-    accommodation: accommodations,
-    foodVenue: [],
-    pointOfInterest: pointsOfInterest,
-    transport: transportLocations,
-  }
+  const { entities } = contentRepository.getData()
 
-  return collections[target.type].find((item) => item.id === target.id)
+  const entityMapKey = ENTITY_MAP_KEYS[target.type]
+  if (!entityMapKey) return undefined
+
+  const collection = entities[entityMapKey]
+  return collection?.get(target.id)
+}
+
+function getBaseLocation() {
+  const { entities } = contentRepository.getData()
+  return entities.accommodations.get('acc-cahernagarry-house')?.location
 }
 
 export const tripRepository = {
-  getTrip: (): Trip => trip,
-  getDays: (): Day[] => days,
-  getDay: (id: string): Day | undefined => days.find((day) => day.id === id),
-  getStop: (dayId: string, stopId: string): Stop | undefined => stops.find((stop) => stop.id === stopId && stop.dayId === dayId),
+  getTrip: (): Trip => contentRepository.getData().trip,
+  getDays: (): Day[] => contentRepository.getData().days,
+  getDay: (id: string): Day | undefined => contentRepository.getData().days.find((day) => day.id === id),
+  getStop: (dayId: string, stopId: string): Stop | undefined =>
+    contentRepository.getData().stops.find((stop) => stop.id === stopId && stop.dayId === dayId),
   getStopsForDay: (dayId: string): ResolvedStop[] => {
+    const { days, stops } = contentRepository.getData()
     const day = days.find((item) => item.id === dayId)
     if (!day) return []
+
+    const baseLoc = getBaseLocation()
 
     return day.stopIds
       .map((stopId) => stops.find((stop) => stop.id === stopId))
       .filter((stop): stop is Stop => stop !== undefined)
-      .map((stop) => ({ stop, title: getDestination(stop.target)?.name ?? 'Parada sin título' }))
+      .map((stop) => {
+        const destination = getDestination(stop.target)
+        let distanceFromBase: number | undefined
+
+        if (baseLoc && destination?.location) {
+          distanceFromBase = calculateDistance(
+            baseLoc.latitude,
+            baseLoc.longitude,
+            destination.location.latitude,
+            destination.location.longitude
+          )
+        }
+
+        return {
+          stop,
+          title: stop.title ?? destination?.name ?? 'Parada sin título',
+          image: destination && 'images' in destination ? destination.images?.[0] : undefined,
+          distanceFromBase,
+        }
+      })
   },
   getStopDetail: (dayId: string, stopId: string): StopDetail | undefined => {
+    const { days, stops } = contentRepository.getData()
     const day = days.find((item) => item.id === dayId)
     const stop = stops.find((item) => item.id === stopId && item.dayId === dayId)
     if (!day || !stop) return undefined
@@ -51,11 +92,27 @@ export const tripRepository = {
     const nextStopId = day.stopIds[currentIndex + 1]
     const nextStop = nextStopId ? stops.find((item) => item.id === nextStopId) : undefined
 
+    const destination = getDestination(stop.target)
+    const baseLoc = getBaseLocation()
+    let distanceFromBase: number | undefined
+
+    if (baseLoc && destination?.location) {
+      distanceFromBase = calculateDistance(
+        baseLoc.latitude,
+        baseLoc.longitude,
+        destination.location.latitude,
+        destination.location.longitude
+      )
+    }
+
     return {
       day,
       stop,
-      destination: getDestination(stop.target),
-      nextStop: nextStop ? { stop: nextStop, title: getDestination(nextStop.target)?.name ?? 'Parada sin título' } : undefined,
+      destination,
+      distanceFromBase,
+      nextStop: nextStop
+        ? { stop: nextStop, title: getDestination(nextStop.target)?.name ?? 'Parada sin título' }
+        : undefined,
     }
   },
 }

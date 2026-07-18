@@ -1,0 +1,11 @@
+{
+  "id": "day08",
+  "title": "Último día en Irlanda",
+  "date": "22/08/2026",
+  "summary": "Tiempo libre y preparativos para el regreso.",
+  "timeline": [
+    { "time": "10:00", "title": "☕ Mañana tranquila" },
+    { "time": "17:00", "title": "🧳 Preparación de equipaje" }
+  ],
+  "stops": []
+}

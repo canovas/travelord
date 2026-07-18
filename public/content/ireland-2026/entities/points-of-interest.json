@@ -1,0 +1,256 @@
+[
+  {
+    "id": "poi-desayunos",
+    "name": "Desayunos Típicos",
+    "category": "generic",
+    "description": "En Irlanda el desayuno es sagrado. No te pierdas el 'Full Irish Breakfast' que incluye salchichas, bacon, huevos, morcilla blanca y negra, tomate y champiñones. Si buscas algo más ligero, los 'Scones' con mermelada y crema o el 'Porridge' (avena) son opciones excelentes.",
+    "tips": ["Busca cafeterías locales con el sello 'Irish Breakfast Award'.", "El té negro con leche es el acompañamiento estándar."]
+  },
+  {
+    "id": "poi-comidas-y-cenas",
+    "name": "Gastronomía Recomendada",
+    "category": "generic",
+    "description": "Prueba el 'Seafood Chowder' (crema de marisco) en las zonas costeras, el 'Irish Lamb Stew' (estofado de cordero) y, por supuesto, el 'Fish & Chips' fresco. La mayoría de los pubs sirven comida de alta calidad ('Pub Grub') hasta las 21:00 aprox.",
+    "tips": ["La propina habitual es del 10% si el servicio ha sido bueno.", "El salmón ahumado irlandés es de los mejores del mundo."]
+  },
+  {
+    "id": "poi-productos-locales-recomendados",
+    "name": "Productos Locales",
+    "category": "generic",
+    "description": "Irlanda es famosa por sus lácteos. La mantequilla Kerrygold es un básico. También te recomendamos el 'Soda Bread' (pan de soda), los quesos artesanales de la zona de Cork y el chocolate de marcas como Butler's o Lily O'Brien's.",
+    "tips": ["En los mercados locales encontrarás los mejores quesos."]
+  },
+  {
+    "id": "poi-b-sicos",
+    "name": "Básicos de Supervivencia",
+    "category": "generic",
+    "description": "Información esencial: \n- **Enchufes**: Tipo G (británico), necesitarás adaptador.\n- **Conducción**: Se conduce por la IZQUIERDA.\n- **Clima**: Prepárate para las 'cuatro estaciones en un día'. Siempre lleva chubasquero.\n- **Moneda**: Euro (€).",
+    "tips": ["Descarga los mapas offline, la cobertura en el rural puede ser limitada.", "Los supermercados como Dunnes, Tesco o SuperValu son ideales para víveres."]
+  },
+  {
+    "id": "poi-eyre-square",
+    "name": "Eyre Square",
+    "category": "generic",
+    "location": { "latitude": 53.2743, "longitude": -9.0494, "locality": "Galway" }
+  },
+  {
+    "id": "poi-shop-street",
+    "name": "Shop Street",
+    "category": "generic",
+    "location": { "latitude": 53.2736, "longitude": -9.0519, "locality": "Galway" }
+  },
+  {
+    "id": "poi-latin-quarter",
+    "name": "Latin Quarter",
+    "category": "generic",
+    "location": { "latitude": 53.2713, "longitude": -9.0538, "locality": "Galway" },
+    "images": [
+      {
+        "id": "img-galway-latin",
+        "url": "https://images.unsplash.com/photo-1579624590491-0391d182ca35?auto=format&fit=crop&q=80&w=1200",
+        "alt": "Calles vibrantes del Latin Quarter en Galway"
+      }
+    ]
+  },
+  {
+    "id": "poi-spanish-arch",
+    "name": "Spanish Arch",
+    "category": "generic",
+    "location": { "latitude": 53.2699, "longitude": -9.0544, "locality": "Galway" }
+  },
+  {
+    "id": "poi-galway-cathedral",
+    "name": "Galway Cathedral",
+    "category": "generic",
+    "location": { "latitude": 53.2753, "longitude": -9.0577, "locality": "Galway" }
+  },
+  {
+    "id": "poi-kylemore-abbey",
+    "name": "Kylemore Abbey",
+    "category": "generic",
+    "location": { "latitude": 53.5615, "longitude": -9.8893, "locality": "Connemara" },
+    "images": [
+      {
+        "id": "img-kylemore",
+        "url": "https://images.unsplash.com/photo-1590424765660-843813c9e6c2?auto=format&fit=crop&q=80&w=1200",
+        "alt": "Abadía de Kylemore reflejada en el lago"
+      }
+    ]
+  },
+  {
+    "id": "poi-victorian-walled-garden",
+    "name": "Victorian Walled Garden",
+    "category": "generic",
+    "location": { "latitude": 53.5645, "longitude": -9.8973, "locality": "Connemara" }
+  },
+  {
+    "id": "poi-letterfrack",
+    "name": "Letterfrack",
+    "category": "generic",
+    "location": { "latitude": 53.5539, "longitude": -9.9489, "locality": "Connemara" }
+  },
+  {
+    "id": "poi-connemara-national-park",
+    "name": "Connemara National Park",
+    "category": "generic",
+    "location": { "latitude": 53.5531, "longitude": -9.9419, "locality": "Connemara" },
+    "images": [
+      {
+        "id": "img-connemara",
+        "url": "https://images.unsplash.com/photo-1563297121-7299a5e4b772?auto=format&fit=crop&q=80&w=1200",
+        "alt": "Paisaje de turberas y montañas en Connemara"
+      }
+    ]
+  },
+  {
+    "id": "poi-ruta-panor-mica",
+    "name": "Ruta panorámica",
+    "category": "generic"
+  },
+  {
+    "id": "poi-acantilados-de-moher",
+    "name": "Acantilados de Moher",
+    "category": "generic",
+    "location": { "latitude": 52.9719, "longitude": -9.4265, "locality": "Clare" }
+  },
+  {
+    "id": "poi-doolin",
+    "name": "Doolin",
+    "category": "generic",
+    "location": { "latitude": 53.0157, "longitude": -9.3756, "locality": "Clare" }
+  },
+  {
+    "id": "poi-caherconnell-stone-fort-sheepdog-demonstrations",
+    "name": "Caherconnell Stone Fort & Sheepdog Demonstrations",
+    "category": "generic",
+    "location": { "latitude": 53.0414, "longitude": -9.1384, "locality": "The Burren" }
+  },
+  {
+    "id": "poi-poulnabrone-dolmen",
+    "name": "Poulnabrone Dolmen",
+    "category": "generic",
+    "location": { "latitude": 53.0487, "longitude": -9.1401, "locality": "The Burren" }
+  },
+  {
+    "id": "poi-cliffs-of-moher",
+    "name": "Cliffs of Moher",
+    "category": "generic",
+    "location": { "latitude": 52.9719, "longitude": -9.4265, "locality": "Clare" },
+    "images": [
+      {
+        "id": "img-cliffs",
+        "url": "https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?auto=format&fit=crop&q=80&w=1200",
+        "alt": "Acantilados de Moher bajo el sol"
+      }
+    ]
+  },
+  {
+    "id": "poi-the-burren",
+    "name": "The Burren",
+    "category": "generic",
+    "location": { "latitude": 53.0275, "longitude": -9.0911, "locality": "Clare" }
+  },
+  {
+    "id": "poi-lahinch",
+    "name": "Lahinch",
+    "category": "generic",
+    "location": { "latitude": 52.9329, "longitude": -9.3458, "locality": "Clare" }
+  },
+  {
+    "id": "poi-liscannor",
+    "name": "Liscannor",
+    "category": "generic",
+    "location": { "latitude": 52.9405, "longitude": -9.3897, "locality": "Clare" }
+  },
+  {
+    "id": "poi-ennistymon",
+    "name": "Ennistymon",
+    "category": "generic",
+    "location": { "latitude": 52.9408, "longitude": -9.2941, "locality": "Clare" }
+  },
+  {
+    "id": "poi-market-house-ennistymon",
+    "name": "Market House Ennistymon",
+    "category": "generic",
+    "location": { "latitude": 52.9408, "longitude": -9.2941, "locality": "Ennistymon" }
+  },
+  {
+    "id": "poi-fanore-beach",
+    "name": "Fanore Beach",
+    "category": "generic",
+    "location": { "latitude": 53.1167, "longitude": -9.2833, "locality": "Clare" }
+  },
+  {
+    "id": "poi-carnicer-as",
+    "name": "Carnicerías",
+    "category": "generic"
+  },
+  {
+    "id": "poi-pescader-as",
+    "name": "Pescaderías",
+    "category": "generic"
+  },
+  {
+    "id": "poi-productos-t-picos",
+    "name": "Productos típicos",
+    "category": "generic"
+  },
+  {
+    "id": "poi-puerto-de-doolin",
+    "name": "Puerto de Doolin",
+    "category": "generic",
+    "location": { "latitude": 53.0157, "longitude": -9.3871, "locality": "Doolin" }
+  },
+  {
+    "id": "poi-inis-o-rr",
+    "name": "Inis Oírr",
+    "category": "generic",
+    "location": { "latitude": 53.0601, "longitude": -9.5168, "locality": "Aran Islands" }
+  },
+  {
+    "id": "poi-miradores-y-costa",
+    "name": "Miradores y costa",
+    "category": "generic"
+  },
+  {
+    "id": "poi-kilkee",
+    "name": "Kilkee",
+    "category": "generic",
+    "location": { "latitude": 52.6821, "longitude": -9.6469, "locality": "Clare" }
+  },
+  {
+    "id": "poi-kilkee-cliffs",
+    "name": "Kilkee Cliffs",
+    "category": "generic",
+    "location": { "latitude": 52.6711, "longitude": -9.6734, "locality": "Kilkee" }
+  },
+  {
+    "id": "poi-loop-head-lighthouse",
+    "name": "Loop Head Lighthouse",
+    "category": "generic",
+    "location": { "latitude": 52.5606, "longitude": -9.9317, "locality": "Loop Head" },
+    "images": [
+      {
+        "id": "img-loop-head",
+        "url": "https://images.unsplash.com/photo-1605335500584-6f018e69ba30?auto=format&fit=crop&q=80&w=1200",
+        "alt": "Faro de Loop Head al borde de los acantilados"
+      }
+    ]
+  },
+  {
+    "id": "poi-miradores-de-loop-head",
+    "name": "Miradores de Loop Head",
+    "category": "generic",
+    "location": { "latitude": 52.5606, "longitude": -9.9317, "locality": "Loop Head" }
+  },
+  {
+    "id": "poi-antes-de-salir-de-la-casa",
+    "name": "Antes de salir de la casa",
+    "category": "generic"
+  },
+  {
+    "id": "poi-antes-de-devolver-el-coche",
+    "name": "Antes de devolver el coche",
+    "category": "generic"
+  }
+]

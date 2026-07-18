@@ -12,7 +12,9 @@ export function StopList({ stops }: StopListProps) {
 
   return (
     <ol aria-label="Plan del día" className="space-y-3 pb-8">
-      {stops.map(({ stop, title }) => <StopCard key={stop.id} stop={stop} title={title} />)}
+      {stops.map(({ stop, title, image }) => (
+        <StopCard key={stop.id} stop={stop} title={title} image={image} />
+      ))}
     </ol>
   )
 }

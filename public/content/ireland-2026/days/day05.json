@@ -1,0 +1,20 @@
+{
+  "id": "day05",
+  "title": "Costa de Clare",
+  "date": "19/08/2026",
+  "summary": "Lahinch, Ennistymon y las playas de Clare.",
+  "timeline": [
+    { "time": "09:00", "title": "🚗 Salida hacia Lahinch" },
+    { "time": "10:00", "title": "🌊 Lahinch Beach" },
+    { "time": "12:00", "title": "🌉 Ennistymon" },
+    { "time": "15:00", "title": "🥩 Market House Ennistymon" },
+    { "time": "17:00", "title": "🏖️ Fanore Beach" }
+  ],
+  "stops": [
+    { "entityId": "poi-lahinch" },
+    { "entityId": "poi-liscannor" },
+    { "entityId": "poi-ennistymon" },
+    { "entityId": "poi-market-house-ennistymon" },
+    { "entityId": "poi-fanore-beach" }
+  ]
+}

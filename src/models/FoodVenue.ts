@@ -24,5 +24,10 @@ export interface FoodVenue {
   category: FoodVenueCategory
   location?: GeoLocation
   description?: string
+  address?: string
+  mapsUrl?: string
+  openingHours?: string
+  website?: string
+  phone?: string
   images?: Image[]
 }

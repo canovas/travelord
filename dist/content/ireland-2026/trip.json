@@ -1,0 +1,23 @@
+{
+  "id": "ireland-2026",
+  "name": "Irlanda 2026",
+  "subtitle": "15 — 23 agosto",
+  "startDate": "15/08/2026",
+  "endDate": "23/08/2026",
+  "coverImage": {
+    "id": "cover-ireland",
+    "url": "https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?auto=format&fit=crop&q=80&w=1200",
+    "alt": "Paisaje de Irlanda con montañas y lagos"
+  },
+  "dayIds": [
+    "day01",
+    "day02",
+    "day03",
+    "day04",
+    "day05",
+    "day06",
+    "day07",
+    "day08",
+    "day09"
+  ]
+}

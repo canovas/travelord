@@ -1,0 +1,21 @@
+{
+  "id": "day04",
+  "title": "Cliffs of Moher y The Burren",
+  "date": "18/08/2026",
+  "summary": "Acantilados espectaculares y el paisaje lunar de The Burren.",
+  "timeline": [
+    { "time": "08:00", "title": "🚗 Salida hacia Clare" },
+    { "time": "10:00", "title": "🌊 Cliffs of Moher" },
+    { "time": "13:00", "title": "🍽️ Comida en Doolin" },
+    { "time": "15:15", "title": "🪨 Poulnabrone Dolmen" },
+    { "time": "16:00", "title": "🐑 Sheepdog Demonstrations" },
+    { "time": "18:15", "title": "🏡 Regreso" }
+  ],
+  "stops": [
+    { "entityId": "poi-cliffs-of-moher" },
+    { "entityId": "poi-doolin" },
+    { "entityId": "poi-poulnabrone-dolmen" },
+    { "entityId": "poi-caherconnell-stone-fort-sheepdog-demonstrations" },
+    { "entityId": "poi-the-burren" }
+  ]
+}

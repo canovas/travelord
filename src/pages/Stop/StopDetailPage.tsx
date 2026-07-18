@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { EmptyDay } from '../../components/common/EmptyDay'
 import { StopHeader } from '../../components/common/StopHeader'
 import { StopInfo } from '../../components/common/StopInfo'
-import { tripRepository, type StopDetail } from '../../services/TripRepository'
+import { tripRepository, type StopDetail, type StopDestination } from '../../services/TripRepository'
 
 type StopDetailPageProps = {
   dayId: string
@@ -13,7 +13,7 @@ type StopDetailState =
   | { status: 'loading' }
   | { status: 'notFound' }
   | { status: 'destinationMissing' }
-  | { status: 'ready'; detail: StopDetail }
+  | { status: 'ready'; detail: StopDetail & { destination: StopDestination } }
 
 export function StopDetailPage({ dayId, stopId }: StopDetailPageProps) {
   const [state, setState] = useState<StopDetailState>({ status: 'loading' })
@@ -28,7 +28,7 @@ export function StopDetailPage({ dayId, stopId }: StopDetailPageProps) {
       setState({ status: 'destinationMissing' })
       return
     }
-    setState({ status: 'ready', detail })
+    setState({ status: 'ready', detail: detail as StopDetail & { destination: StopDestination } })
   }, [dayId, stopId])
 
   if (state.status === 'loading') return <EmptyDay title="Cargando la parada…" />
@@ -38,8 +38,13 @@ export function StopDetailPage({ dayId, stopId }: StopDetailPageProps) {
   const { detail } = state
   return (
     <div className="mx-auto max-w-2xl">
-      <StopHeader stop={detail.stop} destinationName={detail.destination.name} />
-      <StopInfo description={detail.stop.notes} destination={detail.destination} nextStopTitle={detail.nextStop?.title} />
+      <StopHeader stop={detail.stop} destinationName={detail.destination.name} images={detail.destination.images} />
+      <StopInfo
+        description={detail.stop.notes}
+        destination={detail.destination}
+        nextStopTitle={detail.nextStop?.title}
+        distanceFromBase={detail.distanceFromBase}
+      />
     </div>
   )
 }

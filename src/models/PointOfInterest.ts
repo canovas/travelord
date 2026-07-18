@@ -17,5 +17,10 @@ export interface PointOfInterest {
   category: PointOfInterestCategory
   location?: GeoLocation
   description?: string
+  address?: string
+  mapsUrl?: string
+  estimatedVisitMinutes?: number
+  tips?: string[]
+  website?: string
   images?: Image[]
 }

@@ -10,5 +10,9 @@ export interface Accommodation {
   category: AccommodationCategory
   location?: GeoLocation
   description?: string
+  address?: string
+  mapsUrl?: string
+  website?: string
+  phone?: string
   images?: Image[]
 }
