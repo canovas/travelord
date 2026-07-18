@@ -64,12 +64,16 @@ class JsonContentRepository implements IContentRepository {
   }
 
   private async loadInternal(): Promise<ContentData> {
+    const baseUrl = import.meta.env.BASE_URL.endsWith('/')
+      ? import.meta.env.BASE_URL
+      : `${import.meta.env.BASE_URL}/`
+
     try {
-      const config = await this.fetchJson<Config>('/content/config.json')
+      const config = await this.fetchJson<Config>(`${baseUrl}content/config.json`)
       const tripId = config.activeTripId
       if (!tripId) throw new Error('activeTripId not found in config.json')
 
-      const basePath = `/content/${tripId}`
+      const basePath = `${baseUrl}content/${tripId}`
 
       // Load main trip and entity files
       const [tripDto, accommodationsArr, foodVenuesArr, pointsOfInterestArr, transportArr, shoppingArr] =

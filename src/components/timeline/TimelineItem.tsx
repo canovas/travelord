@@ -1,6 +1,7 @@
 import type { Image, Stop } from '../../models'
 import { formatDuration } from '../../utils/formatDuration'
 import { formatStopTargetType } from '../../utils/formatStopTargetType'
+import { resolveHref } from '../../utils/resolveHref'
 
 type TimelineItemProps = {
   stop: Stop
@@ -35,7 +36,7 @@ export function TimelineItem({ stop, title, image, isLast }: TimelineItemProps) 
 
          <div className={`overflow-hidden rounded-2xl border border-slate-200 bg-white transition-all dark:border-slate-800 dark:bg-slate-900 ${isInteractive ? 'hover:border-slate-300 dark:hover:border-slate-700 shadow-sm' : ''}`}>
             {isInteractive ? (
-              <a href={`/stop/${stop.dayId}/${stop.id}`} className="block p-4 focus:outline-none focus:ring-2 focus:ring-slate-900 focus:ring-offset-2 dark:focus:ring-white dark:focus:ring-offset-slate-950">
+              <a href={resolveHref(`/stop/${stop.dayId}/${stop.id}`)} className="block p-4 focus:outline-none focus:ring-2 focus:ring-slate-900 focus:ring-offset-2 dark:focus:ring-white dark:focus:ring-offset-slate-950">
                  {cardContent(title, stop, duration, image, isInteractive)}
               </a>
             ) : (

@@ -4,6 +4,7 @@ import { EmptyDay } from '../../components/common/EmptyDay'
 import { TimelineView } from '../../components/timeline/TimelineView'
 import type { Day } from '../../models'
 import { tripRepository, type ResolvedStop } from '../../services/TripRepository'
+import { resolveHref } from '../../utils/resolveHref'
 
 type DayPageProps = {
   dayId: string
@@ -57,7 +58,7 @@ export function DayPage({ dayId }: DayPageProps) {
             {guideStops.map((resolved) => (
               <a
                 key={resolved.stop.id}
-                href={`/stop/${resolved.stop.dayId}/${resolved.stop.id}`}
+                href={resolveHref(`/stop/${resolved.stop.dayId}/${resolved.stop.id}`)}
                 className="flex items-center gap-4 rounded-2xl border border-slate-200 bg-white p-4 transition-all hover:border-slate-300 hover:shadow-sm dark:border-slate-800 dark:bg-slate-900 dark:hover:border-slate-700"
               >
                 {resolved.image && (

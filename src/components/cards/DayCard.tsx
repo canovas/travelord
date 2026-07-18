@@ -1,5 +1,6 @@
 import type { Day } from '../../models'
 import { tripRepository } from '../../services/TripRepository'
+import { resolveHref } from '../../utils/resolveHref'
 
 type DayCardProps = {
   day: Day
@@ -14,7 +15,7 @@ export function DayCard({ day, dayNumber }: DayCardProps) {
   return (
     <li>
       <a
-        href={`/day/${day.id}`}
+        href={resolveHref(`/day/${day.id}`)}
         className="flex min-h-24 items-center justify-between rounded-2xl border border-slate-200 bg-white px-5 py-4 outline-none transition-colors hover:border-slate-300 focus-visible:ring-2 focus-visible:ring-slate-900 focus-visible:ring-offset-2 dark:border-slate-800 dark:bg-slate-900 dark:hover:border-slate-700 dark:focus-visible:ring-white dark:focus-visible:ring-offset-slate-950"
       >
         <div>

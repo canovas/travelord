@@ -9,13 +9,17 @@ import { contentRepository } from '../services/ContentRepository'
 import { EmptyDay } from '../components/common/EmptyDay'
 
 function getPage(pathname: string) {
-  if (pathname.startsWith('/stop/')) {
-    const [, , dayId, stopId] = pathname.split('/')
+  // Respect Vite's base path for routing
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '')
+  const path = pathname.startsWith(base) ? pathname.replace(base, '') : pathname
+
+  if (path.startsWith('/stop/')) {
+    const [, , dayId, stopId] = path.split('/')
     return <StopDetailPage dayId={dayId} stopId={stopId} />
   }
-  if (pathname.startsWith('/day/')) return <DayPage dayId={pathname.replace('/day/', '')} />
-  if (pathname.startsWith('/place/')) return <PlacePage />
-  if (pathname === '/settings') return <SettingsPage />
+  if (path.startsWith('/day/')) return <DayPage dayId={path.replace('/day/', '')} />
+  if (path.startsWith('/place/')) return <PlacePage />
+  if (path === '/settings') return <SettingsPage />
 
   return <HomePage />
 }
