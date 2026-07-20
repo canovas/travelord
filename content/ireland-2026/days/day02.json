@@ -2,15 +2,15 @@
   "id": "day02",
   "title": "Galway City",
   "date": "16/08/2026",
-  "summary": "Descubrir Galway a pie, disfrutar de su ambiente y el Latin Quarter.",
+  "summary": "Primer contacto con Galway: paseo a pie por el centro histórico, calles comerciales, Latin Quarter, restos de la muralla medieval junto al río Corrib y visita final a la catedral.",
   "timeline": [
     { "time": "08:00", "title": "☕ Desayuno en la casa" },
     { "time": "09:00", "title": "🚗 Salida hacia Galway" },
-    { "time": "10:15", "title": "🌳 Eyre Square" },
-    { "time": "10:45", "title": "🚶 Shop Street" },
-    { "time": "11:30", "title": "🍀 Latin Quarter" },
-    { "time": "12:15", "title": "🌊 Spanish Arch" },
-    { "time": "13:30", "title": "🍽️ Comida en un pub tradicional" },
+    { "time": "10:15", "title": "🌳 Eyre Square, plaza central y punto de inicio" },
+    { "time": "10:45", "title": "🚶 Shop Street, paseo comercial con artistas callejeros" },
+    { "time": "11:30", "title": "🍀 Latin Quarter, calles medievales y ambiente de pubs" },
+    { "time": "12:15", "title": "🌊 Spanish Arch y ribera del Corrib" },
+    { "time": "13:30", "title": "🍽️ Comida: McDonagh's, The Kings Head o Tigh Neachtain" },
     { "time": "15:00", "title": "⛪ Galway Cathedral" },
     { "time": "19:15", "title": "🏡 Regreso al alojamiento" }
   ],
@@ -19,6 +19,12 @@
     { "entityId": "poi-shop-street" },
     { "entityId": "poi-latin-quarter" },
     { "entityId": "poi-spanish-arch" },
+    { "entityId": "food-mcdonaghs-galway" },
+    { "entityId": "food-dough-bros-middle-street" },
+    { "entityId": "food-kings-head-galway" },
+    { "entityId": "food-tigh-neachtain-galway" },
+    { "entityId": "food-john-keoghs-gastropub" },
+    { "entityId": "food-handsome-burger-galway" },
     { "entityId": "poi-galway-cathedral" }
   ]
 }

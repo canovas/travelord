@@ -1,18 +1,24 @@
 {
   "id": "day03",
-  "title": "Connemara y Kylemore Abbey",
+  "title": "Connemara: Naturaleza y Animales",
   "date": "17/08/2026",
-  "summary": "Naturaleza salvaje y la majestuosidad de Kylemore Abbey.",
+  "summary": "Día dedicado a la naturaleza salvaje de Connemara. Visitaremos Kylemore Abbey por la mañana y el Parque Nacional por la tarde para ver los famosos ponis.",
   "timeline": [
     { "time": "08:00", "title": "☕ Desayuno" },
-    { "time": "10:00", "title": "🏰 Kylemore Abbey" },
-    { "time": "13:00", "title": "🍽️ Comida en Letterfrack" },
-    { "time": "15:00", "title": "🌲 Connemara National Park" },
+    { "time": "10:00", "title": "🏰 Kylemore Abbey (Visita Castillo y Jardines)" },
+    { "time": "13:00", "title": "🍽️ Almuerzo en Letterfrack (Carne/Pizza)" },
+    { "time": "15:00", "title": "🐴 Sruffaunboy Walk (Ruta de los Ponis)" },
+    { "time": "16:30", "title": "🥾 Diamond Hill (Vistas panorámicas)" },
     { "time": "19:00", "title": "🏡 Regreso al alojamiento" }
   ],
   "stops": [
     { "entityId": "poi-kylemore-abbey" },
-    { "entityId": "poi-letterfrack" },
-    { "entityId": "poi-connemara-national-park" }
+    { "entityId": "res-cloverfox" },
+    { "entityId": "res-connemara-woodfire" },
+    { "entityId": "poi-connemara-national-park" },
+    { "entityId": "poi-connemara-sruffaunboy-trail" },
+    { "entityId": "poi-connemara-diamond-hill" },
+    { "entityId": "poi-b-sicos" },
+    { "entityId": "poi-desayunos" }
   ]
 }
