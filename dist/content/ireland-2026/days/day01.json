@@ -2,16 +2,18 @@
   "id": "day01",
   "title": "Llegada a Irlanda",
   "date": "15/08/2026",
-  "summary": "Llegar al aeropuerto de Shannon, recoger el coche y desplazarnos a nuestra base en Loughrea.",
+  "summary": "Llegar al aeropuerto de Shannon, recoger el coche, hacer la compra de llegada en Loughrea y desplazarnos a nuestra base en Cahernagarry.",
   "timeline": [
     { "time": "14:20", "title": "✈️ Salida Alicante (FR1323)" },
     { "time": "16:10", "title": "🛬 Llegada Shannon Airport" },
     { "time": "17:30", "title": "🚗 Recogida coche de alquiler" },
-    { "time": "19:00", "title": "🏡 Llegada a Cahernagarry House" },
+    { "time": "18:40", "title": "🛒 Compra de llegada en McInerney's SuperValu Loughrea (abre 07:00–23:00)" },
+    { "time": "19:15", "title": "🏡 Llegada a Cahernagarry House" },
     { "time": "20:30", "title": "🍽️ Cena de bienvenida" }
   ],
   "stops": [
     { "entityId": "trans-shannon-airport" },
+    { "entityId": "shop-supervalu-loughrea" },
     { "entityId": "acc-cahernagarry-house" },
     { "entityId": "poi-b-sicos" },
     { "entityId": "poi-desayunos" },

@@ -1,0 +1,22 @@
+{
+  "id": "day10",
+  "title": "Extra: Escapada a Dublín",
+  "date": "22/08/2026",
+  "summary": "Visita relámpago a la capital de Irlanda por la autopista M6. Un día intenso pero gratificante para conocer los iconos de Dublín.",
+  "timeline": [
+    { "time": "08:30", "title": "🚗 Salida hacia Dublín (M6)" },
+    { "time": "11:00", "title": "🅿️ Llegada y Parking Q-Park Setanta" },
+    { "time": "11:15", "title": "📚 Trinity College y Book of Kells" },
+    { "time": "13:30", "title": "🍽️ Comida y paseo por Temple Bar" },
+    { "time": "15:30", "title": "🚶 Paseo por Grafton Street y St Stephens Green" },
+    { "time": "17:30", "title": "🛍️ Tiempo libre y compras finales" },
+    { "time": "18:30", "title": "🚗 Regreso a Loughrea" },
+    { "time": "20:45", "title": "🏡 Llegada al alojamiento" }
+  ],
+  "stops": [
+    { "entityId": "poi-dublin-parking-setanta" },
+    { "entityId": "poi-dublin-trinity-college" },
+    { "entityId": "poi-dublin-temple-bar" },
+    { "entityId": "poi-dublin-grafton-st" }
+  ]
+}

@@ -31,6 +31,7 @@
     "id": "poi-eyre-square",
     "name": "Eyre Square",
     "category": "generic",
+    "description": "Plaza principal de Galway y buen punto de orientación para empezar el paseo.",
     "location": { "latitude": 53.2743, "longitude": -9.0494, "locality": "Galway" }
   },
   {
@@ -68,6 +69,8 @@
     "id": "poi-kylemore-abbey",
     "name": "Kylemore Abbey",
     "category": "generic",
+    "description": "Abadía benedictina icónica junto al lago. Incluye castillo, jardines victorianos e iglesia neogótica.",
+    "tips": ["Entrada: ~17€ adultos.", "Incluye bus lanzadera a los jardines."],
     "location": { "latitude": 53.5615, "longitude": -9.8893, "locality": "Connemara" },
     "images": [
       {
@@ -93,6 +96,8 @@
     "id": "poi-connemara-national-park",
     "name": "Connemara National Park",
     "category": "generic",
+    "description": "2.000 hectáreas de naturaleza virgen. Entrada y parking gratuitos.",
+    "tips": ["Para ver animales: Sruffaunboy Walk.", "Vistas: Diamond Hill."],
     "location": { "latitude": 53.5531, "longitude": -9.9419, "locality": "Connemara" },
     "images": [
       {
@@ -103,33 +108,20 @@
     ]
   },
   {
-    "id": "poi-ruta-panor-mica",
-    "name": "Ruta panorámica",
-    "category": "generic"
+    "id": "poi-connemara-sruffaunboy-trail",
+    "name": "Sruffaunboy Walk (Ruta Ponis)",
+    "category": "generic",
+    "description": "Ruta fácil de 1,5 km (45 min) ideal para ver los famosos Ponis de Connemara y ovejas en su hábitat. Entrada gratuita.",
+    "tips": ["Pasa por el 'Pony Paddock'.", "Perfecta para todas las edades."],
+    "location": { "latitude": 53.5531, "longitude": -9.9419, "locality": "Letterfrack" }
   },
   {
-    "id": "poi-acantilados-de-moher",
-    "name": "Acantilados de Moher",
+    "id": "poi-connemara-diamond-hill",
+    "name": "Diamond Hill (Vistas 360°)",
     "category": "generic",
-    "location": { "latitude": 52.9719, "longitude": -9.4265, "locality": "Clare" }
-  },
-  {
-    "id": "poi-doolin",
-    "name": "Doolin",
-    "category": "generic",
-    "location": { "latitude": 53.0157, "longitude": -9.3756, "locality": "Clare" }
-  },
-  {
-    "id": "poi-caherconnell-stone-fort-sheepdog-demonstrations",
-    "name": "Caherconnell Stone Fort & Sheepdog Demonstrations",
-    "category": "generic",
-    "location": { "latitude": 53.0414, "longitude": -9.1384, "locality": "The Burren" }
-  },
-  {
-    "id": "poi-poulnabrone-dolmen",
-    "name": "Poulnabrone Dolmen",
-    "category": "generic",
-    "location": { "latitude": 53.0487, "longitude": -9.1401, "locality": "The Burren" }
+    "description": "Subida a Diamond Hill. El loop inferior es fácil/moderado. El superior ofrece vistas 360° de la costa y las montañas Twelve Bens. Gratis.",
+    "tips": ["Calcula 2-3 horas para el loop completo.", "Lleva calzado con agarre."],
+    "location": { "latitude": 53.5531, "longitude": -9.9419, "locality": "Letterfrack" }
   },
   {
     "id": "poi-cliffs-of-moher",
@@ -143,6 +135,24 @@
         "alt": "Acantilados de Moher bajo el sol"
       }
     ]
+  },
+  {
+    "id": "poi-doolin",
+    "name": "Doolin",
+    "category": "generic",
+    "location": { "latitude": 53.0157, "longitude": -9.3756, "locality": "Clare" }
+  },
+  {
+    "id": "poi-poulnabrone-dolmen",
+    "name": "Poulnabrone Dolmen",
+    "category": "generic",
+    "location": { "latitude": 53.0487, "longitude": -9.1401, "locality": "The Burren" }
+  },
+  {
+    "id": "poi-caherconnell-stone-fort-sheepdog-demonstrations",
+    "name": "Caherconnell Stone Fort & Sheepdog Demonstrations",
+    "category": "generic",
+    "location": { "latitude": 53.0414, "longitude": -9.1384, "locality": "The Burren" }
   },
   {
     "id": "poi-the-burren",
@@ -179,21 +189,6 @@
     "name": "Fanore Beach",
     "category": "generic",
     "location": { "latitude": 53.1167, "longitude": -9.2833, "locality": "Clare" }
-  },
-  {
-    "id": "poi-carnicer-as",
-    "name": "Carnicerías",
-    "category": "generic"
-  },
-  {
-    "id": "poi-pescader-as",
-    "name": "Pescaderías",
-    "category": "generic"
-  },
-  {
-    "id": "poi-productos-t-picos",
-    "name": "Productos típicos",
-    "category": "generic"
   },
   {
     "id": "poi-puerto-de-doolin",
@@ -252,5 +247,52 @@
     "id": "poi-antes-de-devolver-el-coche",
     "name": "Antes de devolver el coche",
     "category": "generic"
+  },
+  {
+    "id": "poi-dublin-trinity-college",
+    "name": "Trinity College Dublin",
+    "category": "generic",
+    "description": "La universidad más antigua de Irlanda, fundada en 1592. Imprescindible visitar la Antigua Biblioteca para ver el Libro de Kells (manuscrito del s. IX).",
+    "address": "College Green, Dublin 2",
+    "website": "https://www.tcd.ie/visitors/book-of-kells/",
+    "tips": ["Reserva con semanas de antelación.", "Precio: ~18€ adultos."],
+    "location": { "latitude": 53.3438, "longitude": -6.2546, "locality": "Dublín" },
+    "images": [
+      {
+        "id": "img-dublin-trinity",
+        "url": "https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?auto=format&fit=crop&q=80&w=1200",
+        "alt": "Biblioteca de Trinity College"
+      }
+    ]
+  },
+  {
+    "id": "poi-dublin-temple-bar",
+    "name": "Temple Bar District",
+    "category": "generic",
+    "description": "El barrio cultural y de ocio más famoso de Dublín. Calles adoquinadas, pubs históricos, galerías de arte y mucha música en vivo.",
+    "tips": ["Ideal para pasear y comer algo rápido.", "Ambiente garantizado a cualquier hora."],
+    "location": { "latitude": 53.3455, "longitude": -6.2644, "locality": "Dublín" },
+    "images": [
+      {
+        "id": "img-dublin-temple",
+        "url": "https://images.unsplash.com/photo-1518005020480-10f4d1767d2b?auto=format&fit=crop&q=80&w=1200",
+        "alt": "Calles de Temple Bar"
+      }
+    ]
+  },
+  {
+    "id": "poi-dublin-grafton-st",
+    "name": "Grafton Street",
+    "category": "generic",
+    "description": "La principal calle comercial peatonal del sur de Dublín. Famosa por sus músicos callejeros y tiendas de lujo.",
+    "location": { "latitude": 53.3421, "longitude": -6.2598, "locality": "Dublín" }
+  },
+  {
+    "id": "poi-dublin-parking-setanta",
+    "name": "Parking Q-Park Setanta",
+    "category": "generic",
+    "description": "Parking céntrico y seguro, a 2 minutos a pie de Trinity College.",
+    "address": "Setanta Place, Dublin 2",
+    "location": { "latitude": 53.3418, "longitude": -6.2567, "locality": "Dublín" }
   }
 ]

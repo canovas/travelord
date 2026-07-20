@@ -1,1 +1,103 @@
-[]
+[
+  {
+    "id": "food-mcdonaghs-galway",
+    "name": "McDonagh's Fish & Chip Bar",
+    "category": "restaurant",
+    "description": "Opción muy práctica para comer pescado y patatas sin disparar el presupuesto. Es informal, céntrico y perfecto si queréis algo típico de Galway sin sentaros a una comida larga; buena candidata para la comida del día 2.",
+    "address": "22 Quay Street, Galway",
+    "openingHours": "Domingo 13:00-21:00; lunes-sábado 12:00-22:00.",
+    "website": "https://www.mcdonaghs.net/fish-chip-bar/",
+    "phone": "+353 91 565001",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=McDonagh%27s%20Fish%20and%20Chip%20Bar%20Galway",
+    "tips": ["Precio aprox: 15-20€ por persona."],
+    "location": { "latitude": 53.2712, "longitude": -9.0537, "locality": "Galway" }
+  },
+  {
+    "id": "food-dough-bros-middle-street",
+    "name": "The Dough Bros",
+    "category": "restaurant",
+    "description": "Pizzería muy reconocida de Galway: masa estilo napolitano, ingredientes irlandeses y precios razonables para la calidad. Para cuatro personas suele ser una de las formas más seguras de comer bien sin que la cuenta se descontrole.",
+    "address": "Cathedral Buildings, 1 Middle Street, Galway",
+    "openingHours": "Domingo 12:00-21:30. No aceptan reservas; solo walk-in.",
+    "website": "https://www.thedoughbros.ie/pages/the-dough-bros-middle-street",
+    "phone": "+353 85 214 5283",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Dough%20Bros%20Middle%20Street%20Galway",
+    "tips": ["Precio aprox: 15-22€ por persona."],
+    "location": { "latitude": 53.2737, "longitude": -9.0526, "locality": "Galway" }
+  },
+  {
+    "id": "food-kings-head-galway",
+    "name": "The Kings Head",
+    "category": "pub",
+    "description": "Pub histórico en pleno centro, útil si queréis una comida irlandesa clásica con ambiente y variedad: chowder, fish and chips, platos de carne y opciones más ligeras. Para controlar gasto, mejor elegir del menú de día o platos principales sencillos.",
+    "address": "15 High Street, Galway",
+    "openingHours": "Comida y cena; walk-in, sin reservas. Sin cargo de servicio para grupos de 4 o menos.",
+    "website": "https://thekingshead.ie/pages/menus",
+    "phone": "+353 91 566630",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Kings%20Head%20Galway",
+    "tips": ["Precio aprox: 20-30€ por persona."],
+    "location": { "latitude": 53.2717, "longitude": -9.0534, "locality": "Galway" }
+  },
+  {
+    "id": "food-tigh-neachtain-galway",
+    "name": "Tigh Neachtain",
+    "category": "pub",
+    "description": "Pub tradicional con mucho carácter en el Latin Quarter. Sirve almuerzos y bocados ligeros con producto local; es buena opción si buscáis una parada con ambiente auténtico más que una comida formal.",
+    "address": "17 Cross Street Upper, Galway",
+    "openingHours": "Comida 12:00-16:00 todos los días; después funciona principalmente como pub.",
+    "website": "https://www.tighneachtain.com/menus",
+    "phone": "+353 91 568820",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tigh%20Neachtain%20Galway",
+    "tips": ["Precio aprox: 12-25€ por persona."],
+    "location": { "latitude": 53.2718, "longitude": -9.0539, "locality": "Galway" }
+  },
+  {
+    "id": "food-john-keoghs-gastropub",
+    "name": "John Keogh's Gastropub",
+    "category": "pub",
+    "description": "La opción de más calidad dentro de una cuenta todavía controlable si elegís bien: gastropub premiado, producto local y platos más elaborados que un pub estándar. Mejor para cena temprana o para quien quiera subir un punto sin entrar en fine dining.",
+    "address": "22-24 Upper Dominick Street, Galway, H91 DXH7",
+    "openingHours": "Sábado y domingo desde 15:00; últimos pedidos de comida 21:30.",
+    "website": "https://www.johnkeoghs.ie/evening-menu-at-john-keoghs/",
+    "phone": "+353 91 449431",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=John%20Keogh%27s%20Gastropub%20Galway",
+    "tips": ["Precio aprox: 25-35€ por persona."],
+    "location": { "latitude": 53.2704, "longitude": -9.0576, "locality": "Galway" }
+  },
+  {
+    "id": "food-handsome-burger-galway",
+    "name": "Handsome Burger",
+    "category": "restaurant",
+    "description": "Plan sencillo y económico para hamburguesas de buena calidad. Encaja si el grupo prefiere una comida rápida pero mejor que una cadena; las hamburguesas principales se mueven en torno a 9-13 euros antes de extras.",
+    "address": "49 Dominick Street Lower, Galway",
+    "openingHours": "Consultar horario del día antes de ir.",
+    "website": "https://handsomeburger.com/pages/galway-menu",
+    "phone": "+353 91 533992",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Handsome%20Burger%20Galway",
+    "tips": ["Precio aprox: 15-20€ por persona."],
+    "location": { "latitude": 53.2702, "longitude": -9.0577, "locality": "Galway" }
+  },
+  {
+    "id": "res-cloverfox",
+    "name": "Cloverfox Connemara",
+    "category": "pub",
+    "description": "Pub y restaurante histórico en Letterfrack. Famoso por su carne de buey irlandés y el cordero de montaña de Connemara.",
+    "address": "Letterfrack, Co. Galway",
+    "website": "https://cloverfox.ie/",
+    "phone": "+353 95 41042",
+    "tips": ["Prueba el cordero local. Precio aprox: 25-35€/persona."],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cloverfox%20Letterfrack",
+    "location": { "latitude": 53.5542, "longitude": -9.9485, "locality": "Letterfrack" }
+  },
+  {
+    "id": "res-connemara-woodfire",
+    "name": "Connemara Woodfire",
+    "category": "restaurant",
+    "description": "Pizzas artesanales al horno de leña y hamburguesas gourmet con ingredientes locales.",
+    "address": "Letterfrack Lodge, Letterfrack, Co. Galway",
+    "phone": "+353 95 41222",
+    "tips": ["Precio aprox: 20-30€/persona."],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Connemara%20Woodfire%20Letterfrack",
+    "location": { "latitude": 53.5535, "longitude": -9.9472, "locality": "Letterfrack" }
+  }
+]

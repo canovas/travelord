@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": "shop-supervalu-loughrea",
+    "name": "McInerney's SuperValu Loughrea",
+    "category": "supermarket",
+    "description": "Supermercado para la compra de llegada: básicos para desayunos, agua y provisiones. Abre todos los días de 07:00 a 23:00.",
+    "address": "Loughrea Shopping Centre, Athenry Road, Loughrea, Co. Galway, H62 P588",
+    "website": "https://supervalu.ie/store-locator/",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=McInerney%27s%20SuperValu%20Loughrea",
+    "location": { "latitude": 53.2019, "longitude": -8.5744, "locality": "Loughrea" }
+  }
+]

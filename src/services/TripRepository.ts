@@ -51,6 +51,38 @@ export const tripRepository = {
   getDay: (id: string): Day | undefined => contentRepository.getData().days.find((day) => day.id === id),
   getStop: (dayId: string, stopId: string): Stop | undefined =>
     contentRepository.getData().stops.find((stop) => stop.id === stopId && stop.dayId === dayId),
+  getDistanceForDay: (dayId: string): number => {
+    const { days, stops } = contentRepository.getData()
+    const day = days.find((item) => item.id === dayId)
+    if (!day) return 0
+
+    const baseLoc = getBaseLocation()
+    if (!baseLoc) return 0
+
+    let maxDist = 0
+
+    // Arrival and Return days are simple one-way or special cases
+    if (dayId === 'day01' || dayId === 'day09') {
+      const shannon = contentRepository.getData().entities.transport.get('trans-shannon-airport')?.location
+      if (shannon) {
+        return calculateDistance(baseLoc.latitude, baseLoc.longitude, shannon.latitude, shannon.longitude)
+      }
+    }
+
+    // For other days, find the furthest point from base
+    day.stopIds.forEach((stopId) => {
+      const stop = stops.find((s) => s.id === stopId)
+      if (stop) {
+        const dest = getDestination(stop.target)
+        if (dest?.location) {
+          const d = calculateDistance(baseLoc.latitude, baseLoc.longitude, dest.location.latitude, dest.location.longitude)
+          if (d > maxDist) maxDist = d
+        }
+      }
+    })
+
+    return maxDist * 2 // Round trip
+  },
   getStopsForDay: (dayId: string): ResolvedStop[] => {
     const { days, stops } = contentRepository.getData()
     const day = days.find((item) => item.id === dayId)

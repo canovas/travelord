@@ -11,6 +11,7 @@ export function DayCard({ day, dayNumber }: DayCardProps) {
   const stops = tripRepository.getStopsForDay(day.id)
   const stopCount = stops.length
   const firstDestination = stops[0]?.title
+  const estimatedKm = tripRepository.getDistanceForDay(day.id)
 
   return (
     <li>
@@ -27,6 +28,12 @@ export function DayCard({ day, dayNumber }: DayCardProps) {
             <span>
               {stopCount} {stopCount === 1 ? 'parada' : 'paradas'}
             </span>
+            {estimatedKm > 0 && (
+              <>
+                <span className="text-slate-300 dark:text-slate-700">•</span>
+                <span className="font-medium text-moss dark:text-moss-400">~{estimatedKm} km</span>
+              </>
+            )}
             {firstDestination && (
               <>
                 <span className="text-slate-300 dark:text-slate-700">•</span>
