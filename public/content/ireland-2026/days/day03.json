@@ -1,24 +1,70 @@
 {
   "id": "day03",
-  "title": "Connemara: Naturaleza y Animales",
+  "title": "Connemara: Naturaleza y Paisajes",
   "date": "17/08/2026",
-  "summary": "Día dedicado a la naturaleza salvaje de Connemara. Visitaremos Kylemore Abbey por la mañana y el Parque Nacional por la tarde para ver los famosos ponis.",
+  "summary": "Descubre la región más salvaje del oeste de Irlanda recorriendo Kylemore Abbey, el Parque Nacional de Connemara, Letterfrack, Clifden y la espectacular Sky Road.",
   "timeline": [
-    { "time": "08:00", "title": "☕ Desayuno" },
-    { "time": "10:00", "title": "🏰 Kylemore Abbey (Visita Castillo y Jardines)" },
-    { "time": "13:00", "title": "🍽️ Almuerzo en Letterfrack (Carne/Pizza)" },
-    { "time": "15:00", "title": "🐴 Sruffaunboy Walk (Ruta de los Ponis)" },
-    { "time": "16:30", "title": "🥾 Diamond Hill (Vistas panorámicas)" },
-    { "time": "19:00", "title": "🏡 Regreso al alojamiento" }
+    {
+      "time": "08:00",
+      "title": "☕ Desayuno en la casa"
+    },
+    {
+      "time": "09:00",
+      "title": "🚗 Salida hacia Connemara"
+    },
+    {
+      "time": "10:30",
+      "title": "🏰 Kylemore Abbey (entrada opcional) y mirador del lago"
+    },
+    {
+      "time": "12:30",
+      "title": "🌲 Connemara National Park (sendero corto)"
+    },
+    {
+      "time": "13:45",
+      "title": "🍽️ Comida en Letterfrack"
+    },
+    {
+      "time": "15:00",
+      "title": "🌊 Sky Road (Clifden)"
+    },
+    {
+      "time": "15:45",
+      "title": "📸 Clifden y miradores de Connemara"
+    },
+    {
+      "time": "17:00",
+      "title": "🚗 Regreso hacia Cahernagarry"
+    },
+    {
+      "time": "19:00",
+      "title": "🏡 Llegada al alojamiento"
+    }
   ],
   "stops": [
-    { "entityId": "poi-kylemore-abbey" },
-    { "entityId": "res-cloverfox" },
-    { "entityId": "res-connemara-woodfire" },
-    { "entityId": "poi-connemara-national-park" },
-    { "entityId": "poi-connemara-sruffaunboy-trail" },
-    { "entityId": "poi-connemara-diamond-hill" },
-    { "entityId": "poi-b-sicos" },
-    { "entityId": "poi-desayunos" }
+    {
+      "entityId": "poi-kylemore-abbey"
+    },
+    {
+      "entityId": "poi-kylemore-viewpoint"
+    },
+    {
+      "entityId": "poi-connemara-national-park"
+    },
+    {
+      "entityId": "poi-letterfrack"
+    },
+    {
+      "entityId": "food-veldons-seafarer"
+    },
+    {
+      "entityId": "poi-clifden"
+    },
+    {
+      "entityId": "poi-sky-road"
+    },
+    {
+      "entityId": "poi-connemara-viewpoint"
+    }
   ]
 }

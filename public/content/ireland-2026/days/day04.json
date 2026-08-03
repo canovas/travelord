@@ -1,21 +1,78 @@
 {
   "id": "day04",
-  "title": "Cliffs of Moher y The Burren",
+  "title": "Cliffs of Moher y Doolin",
   "date": "18/08/2026",
-  "summary": "Acantilados espectaculares y el paisaje lunar de The Burren.",
+  "summary": "Descubre los impresionantes Acantilados de Moher y el ambiente tradicional de Doolin, disfrutando de la costa atlántica con tiempo suficiente para recorrer los principales miradores sin prisas.",
   "timeline": [
-    { "time": "08:00", "title": "🚗 Salida hacia Clare" },
-    { "time": "10:00", "title": "🌊 Cliffs of Moher" },
-    { "time": "13:00", "title": "🍽️ Comida en Doolin" },
-    { "time": "15:15", "title": "🪨 Poulnabrone Dolmen" },
-    { "time": "16:00", "title": "🐑 Sheepdog Demonstrations" },
-    { "time": "18:15", "title": "🏡 Regreso" }
+    {
+      "time": "08:00",
+      "title": "☕ Desayuno en la casa"
+    },
+    {
+      "time": "09:00",
+      "title": "🚗 Salida hacia Cliffs of Moher"
+    },
+    {
+      "time": "10:30",
+      "title": "🌊 Cliffs of Moher Visitor Centre y senderos"
+    },
+    {
+      "time": "12:45",
+      "title": "🚗 Traslado a Doolin"
+    },
+    {
+      "time": "13:00",
+      "title": "🍽️ Comida en Doolin"
+    },
+    {
+      "time": "14:30",
+      "title": "⚓ Puerto de Doolin"
+    },
+    {
+      "time": "15:00",
+      "title": "🚶 Paseo por Fisher Street"
+    },
+    {
+      "time": "15:45",
+      "title": "📸 Miradores de Doolin y costa"
+    },
+    {
+      "time": "16:30",
+      "title": "🌊 Liscannor"
+    },
+    {
+      "time": "17:15",
+      "title": "🚗 Regreso hacia Cahernagarry"
+    },
+    {
+      "time": "19:00",
+      "title": "🏡 Llegada al alojamiento"
+    }
   ],
   "stops": [
-    { "entityId": "poi-cliffs-of-moher" },
-    { "entityId": "poi-doolin" },
-    { "entityId": "poi-poulnabrone-dolmen" },
-    { "entityId": "poi-caherconnell-stone-fort-sheepdog-demonstrations" },
-    { "entityId": "poi-the-burren" }
+    {
+      "entityId": "poi-cliffs-of-moher"
+    },
+    {
+      "entityId": "poi-obrien-tower"
+    },
+    {
+      "entityId": "poi-doolin"
+    },
+    {
+      "entityId": "poi-doolin-pier"
+    },
+    {
+      "entityId": "poi-fisher-street"
+    },
+    {
+      "entityId": "food-oar-restaurant"
+    },
+    {
+      "entityId": "food-gus-oconnors"
+    },
+    {
+      "entityId": "poi-liscannor"
+    }
   ]
 }

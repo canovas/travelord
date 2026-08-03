@@ -2,29 +2,84 @@
   "id": "day02",
   "title": "Galway City",
   "date": "16/08/2026",
-  "summary": "Primer contacto con Galway: paseo a pie por el centro histórico, calles comerciales, Latin Quarter, restos de la muralla medieval junto al río Corrib y visita final a la catedral.",
+  "summary": "Primer contacto con Galway. Paseo completo por el centro histórico, el río Corrib y el Latin Quarter, terminando con la catedral antes de regresar al alojamiento.",
   "timeline": [
-    { "time": "08:00", "title": "☕ Desayuno en la casa" },
-    { "time": "09:00", "title": "🚗 Salida hacia Galway" },
-    { "time": "10:15", "title": "🌳 Eyre Square, plaza central y punto de inicio" },
-    { "time": "10:45", "title": "🚶 Shop Street, paseo comercial con artistas callejeros" },
-    { "time": "11:30", "title": "🍀 Latin Quarter, calles medievales y ambiente de pubs" },
-    { "time": "12:15", "title": "🌊 Spanish Arch y ribera del Corrib" },
-    { "time": "13:30", "title": "🍽️ Comida: McDonagh's, The Kings Head o Tigh Neachtain" },
-    { "time": "15:00", "title": "⛪ Galway Cathedral" },
-    { "time": "19:15", "title": "🏡 Regreso al alojamiento" }
+    {
+      "time": "08:00",
+      "title": "☕ Desayuno en casa"
+    },
+    {
+      "time": "09:00",
+      "title": "🚗 Salida hacia Galway"
+    },
+    {
+      "time": "10:00",
+      "title": "🅿️ Aparcamiento junto a Eyre Square"
+    },
+    {
+      "time": "10:15",
+      "title": "🌳 Eyre Square"
+    },
+    {
+      "time": "10:40",
+      "title": "🚶 Shop Street"
+    },
+    {
+      "time": "11:15",
+      "title": "🍀 Latin Quarter"
+    },
+    {
+      "time": "12:00",
+      "title": "🌊 Spanish Arch y The Long Walk"
+    },
+    {
+      "time": "13:15",
+      "title": "🍽️ Comida"
+    },
+    {
+      "time": "14:45",
+      "title": "⛪ Galway Cathedral"
+    },
+    {
+      "time": "15:30",
+      "title": "☕ Café, helado o compras por Shop Street"
+    },
+    {
+      "time": "17:15",
+      "title": "🚗 Salida de Galway"
+    },
+    {
+      "time": "18:15",
+      "title": "🏡 Llegada al alojamiento"
+    }
   ],
   "stops": [
-    { "entityId": "poi-eyre-square" },
-    { "entityId": "poi-shop-street" },
-    { "entityId": "poi-latin-quarter" },
-    { "entityId": "poi-spanish-arch" },
-    { "entityId": "food-mcdonaghs-galway" },
-    { "entityId": "food-dough-bros-middle-street" },
-    { "entityId": "food-kings-head-galway" },
-    { "entityId": "food-tigh-neachtain-galway" },
-    { "entityId": "food-john-keoghs-gastropub" },
-    { "entityId": "food-handsome-burger-galway" },
-    { "entityId": "poi-galway-cathedral" }
+    {
+      "entityId": "poi-eyre-square"
+    },
+    {
+      "entityId": "poi-shop-street"
+    },
+    {
+      "entityId": "poi-latin-quarter"
+    },
+    {
+      "entityId": "poi-spanish-arch"
+    },
+    {
+      "entityId": "poi-long-walk"
+    },
+    {
+      "entityId": "food-mcdonaghs-galway"
+    },
+    {
+      "entityId": "food-kings-head-galway"
+    },
+    {
+      "entityId": "food-dough-bros-middle-street"
+    },
+    {
+      "entityId": "poi-galway-cathedral"
+    }
   ]
 }

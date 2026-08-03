@@ -1,16 +1,71 @@
 {
-  "id": "day06",
-  "title": "Islas Aran (Inis Oírr)",
-  "date": "20/08/2026",
-  "summary": "Travesía en ferry y descubrimiento de la isla en bicicleta.",
+  "id": "day07",
+  "title": "Loop Head y Costa Oeste de Clare",
+  "date": "21/08/2026",
+  "summary": "Ruta panorámica por la península de Loop Head descubriendo algunos de los paisajes más espectaculares del condado de Clare, pequeños pueblos pesqueros y excelentes restaurantes de marisco.",
   "timeline": [
-    { "time": "09:30", "title": "⛴️ Ferry desde Doolin" },
-    { "time": "10:15", "title": "🚲 Recorrido por Inis Oírr" },
-    { "time": "16:00", "title": "⛴️ Regreso a tierra firme" }
+    {
+      "time": "08:00",
+      "title": "☕ Desayuno en la casa"
+    },
+    {
+      "time": "09:00",
+      "title": "🚗 Salida hacia Kilkee"
+    },
+    {
+      "time": "10:30",
+      "title": "🌊 Kilkee Cliff Walk y paseo marítimo"
+    },
+    {
+      "time": "11:45",
+      "title": "🌊 Bridges of Ross"
+    },
+    {
+      "time": "12:30",
+      "title": "📸 Loop Head Lighthouse"
+    },
+    {
+      "time": "14:00",
+      "title": "🍽️ Comida en Carrigaholt"
+    },
+    {
+      "time": "15:30",
+      "title": "⚓ Paseo por Carrigaholt"
+    },
+    {
+      "time": "16:15",
+      "title": "🌊 Miradores de la costa oeste"
+    },
+    {
+      "time": "17:15",
+      "title": "🚗 Regreso hacia Cahernagarry"
+    },
+    {
+      "time": "19:30",
+      "title": "🏡 Llegada al alojamiento"
+    }
   ],
   "stops": [
-    { "entityId": "poi-puerto-de-doolin" },
-    { "entityId": "poi-inis-o-rr" },
-    { "entityId": "poi-miradores-y-costa" }
+    {
+      "entityId": "poi-kilkee"
+    },
+    {
+      "entityId": "poi-kilkee-cliff-walk"
+    },
+    {
+      "entityId": "poi-bridges-of-ross"
+    },
+    {
+      "entityId": "poi-loop-head-lighthouse"
+    },
+    {
+      "entityId": "food-linnanes-lobster-bar"
+    },
+    {
+      "entityId": "poi-carrigaholt"
+    },
+    {
+      "entityId": "poi-loop-head-viewpoint"
+    }
   ]
 }

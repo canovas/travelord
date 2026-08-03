@@ -294,5 +294,173 @@
     "description": "Parking céntrico y seguro, a 2 minutos a pie de Trinity College.",
     "address": "Setanta Place, Dublin 2",
     "location": { "latitude": 53.3418, "longitude": -6.2567, "locality": "Dublín" }
+  },
+  {
+    "id": "poi-shannon-petrol-station",
+    "name": "Gasolinera Shannon",
+    "category": "generic",
+    "description": "Estación de servicio recomendada para repostar antes de devolver el vehículo de alquiler en el aeropuerto.",
+    "location": { "latitude": 52.7121, "longitude": -8.8954, "locality": "Shannon" }
+  },
+  {
+    "id": "poi-long-walk",
+    "name": "The Long Walk",
+    "category": "generic",
+    "description": "Famoso paseo marítimo de Galway con vistas a las casas de colores. Un lugar icónico para fotografiar la ciudad.",
+    "location": { "latitude": 53.2694, "longitude": -9.0526, "locality": "Galway" }
+  },
+  {
+    "id": "poi-kylemore-viewpoint",
+    "name": "Mirador de Kylemore",
+    "category": "generic",
+    "description": "Punto panorámico ideal para contemplar la Abadía de Kylemore reflejada en el lago Pollacapall.",
+    "location": { "latitude": 53.5608, "longitude": -9.8856, "locality": "Connemara" }
+  },
+  {
+    "id": "poi-clifden",
+    "name": "Clifden",
+    "category": "generic",
+    "description": "Capital de Connemara, una pintoresca ciudad costera con tiendas, pubs y un ambiente vibrante.",
+    "location": { "latitude": 53.4877, "longitude": -10.0211, "locality": "Clifden" }
+  },
+  {
+    "id": "poi-sky-road",
+    "name": "Sky Road",
+    "category": "generic",
+    "description": "Ruta panorámica circular de 11 km que ofrece algunas de las vistas más impresionantes de la costa atlántica de Connemara.",
+    "location": { "latitude": 53.4941, "longitude": -10.0544, "locality": "Clifden" }
+  },
+  {
+    "id": "poi-connemara-viewpoint",
+    "name": "Mirador de Connemara",
+    "category": "generic",
+    "description": "Punto de observación con vistas espectaculares de los valles y picos de la región.",
+    "location": { "latitude": 53.5123, "longitude": -9.9234, "locality": "Connemara" }
+  },
+  {
+    "id": "poi-obrien-tower",
+    "name": "O'Brien's Tower",
+    "category": "generic",
+    "description": "Torre de observación situada en el punto más alto de los Acantilados de Moher, construida en 1835.",
+    "location": { "latitude": 52.9731, "longitude": -9.4297, "locality": "Clare" }
+  },
+  {
+    "id": "poi-doolin-pier",
+    "name": "Puerto de Doolin",
+    "category": "generic",
+    "description": "Puerto desde donde parten los ferris hacia las Islas Aran y los cruceros por los Acantilados de Moher.",
+    "location": { "latitude": 53.0157, "longitude": -9.3871, "locality": "Doolin" }
+  },
+  {
+    "id": "poi-fisher-street",
+    "name": "Fisher Street",
+    "category": "generic",
+    "description": "Calle principal de Doolin, famosa por sus fachadas de colores, tiendas de artesanía y pubs tradicionales.",
+    "location": { "latitude": 53.0151, "longitude": -9.3812, "locality": "Doolin" }
+  },
+  {
+    "id": "poi-aillwee-cave",
+    "name": "Aillwee Cave",
+    "category": "generic",
+    "description": "Una de las cuevas más antiguas de Irlanda, situada en el corazón del Burren.",
+    "location": { "latitude": 53.0886, "longitude": -9.1451, "locality": "The Burren" }
+  },
+  {
+    "id": "poi-birds-of-prey-centre",
+    "name": "Burren Birds of Prey Centre",
+    "category": "generic",
+    "description": "Centro dedicado a la exhibición y conservación de aves rapaces, incluyendo halcones, águilas y búhos.",
+    "location": { "latitude": 53.0886, "longitude": -9.1451, "locality": "The Burren" }
+  },
+  {
+    "id": "poi-black-head-drive",
+    "name": "Black Head Drive",
+    "category": "generic",
+    "description": "Tramo costero de la ruta Wild Atlantic Way con espectaculares formaciones rocosas calizas.",
+    "location": { "latitude": 53.1511, "longitude": -9.2612, "locality": "Clare" }
+  },
+  {
+    "id": "poi-burren-perfumery",
+    "name": "Burren Perfumery",
+    "category": "generic",
+    "description": "Perfumería artesanal y jardines que elaboran fragancias inspiradas en el paisaje del Burren.",
+    "location": { "latitude": 53.0336, "longitude": -9.1172, "locality": "The Burren" }
+  },
+  {
+    "id": "poi-hazel-mountain-chocolate",
+    "name": "Hazel Mountain Chocolate",
+    "category": "generic",
+    "description": "Fábrica de chocolate artesanal 'bean-to-bar' y cafetería situada en una granja tradicional.",
+    "location": { "latitude": 53.1111, "longitude": -9.0412, "locality": "The Burren" }
+  },
+  {
+    "id": "poi-kilkee-cliff-walk",
+    "name": "Paseo por los Acantilados de Kilkee",
+    "category": "generic",
+    "description": "Espectacular ruta a pie que recorre los acantilados de Kilkee, con vistas impresionantes del Atlántico.",
+    "location": { "latitude": 52.6711, "longitude": -9.6734, "locality": "Kilkee" }
+  },
+  {
+    "id": "poi-bridges-of-ross",
+    "name": "Bridges of Ross",
+    "category": "generic",
+    "description": "Formaciones rocosas naturales que en su día fueron arcos de piedra sobre el mar; uno de los mejores puntos para observar aves marinas.",
+    "location": { "latitude": 52.5936, "longitude": -9.8512, "locality": "Loop Head" }
+  },
+  {
+    "id": "poi-carrigaholt",
+    "name": "Carrigaholt",
+    "category": "generic",
+    "description": "Pintoresco pueblo pesquero conocido por su castillo medieval y sus tours de avistamiento de delfines.",
+    "location": { "latitude": 52.6001, "longitude": -9.6987, "locality": "Loop Head" }
+  },
+  {
+    "id": "poi-loop-head-viewpoint",
+    "name": "Mirador de Loop Head",
+    "category": "generic",
+    "description": "Punto panorámico en el extremo de la península con vistas infinitas al océano.",
+    "location": { "latitude": 52.5606, "longitude": -9.9317, "locality": "Loop Head" }
+  },
+  {
+    "id": "poi-ennistymon-falls",
+    "name": "Cascadas de Ennistymon",
+    "category": "generic",
+    "description": "Impresionantes cascadas del río Inagh situadas en el corazón del pueblo de Ennistymon.",
+    "location": { "latitude": 52.9408, "longitude": -9.2941, "locality": "Ennistymon" }
+  },
+  {
+    "id": "poi-book-of-kells",
+    "name": "El Libro de Kells",
+    "category": "generic",
+    "description": "El manuscrito iluminado más famoso del mundo, custodiado en la Antigua Biblioteca del Trinity College.",
+    "location": { "latitude": 53.3442, "longitude": -6.2544, "locality": "Dublín" }
+  },
+  {
+    "id": "poi-st-stephens-green",
+    "name": "St Stephen's Green",
+    "category": "generic",
+    "description": "Histórico parque público en el centro de Dublín, un oasis de paz con jardines, lagos y monumentos.",
+    "location": { "latitude": 53.3381, "longitude": -6.2591, "locality": "Dublín" }
+  },
+  {
+    "id": "poi-hapenny-bridge",
+    "name": "Ha'penny Bridge",
+    "category": "generic",
+    "description": "El puente peatonal más famoso de Dublín, construido en 1816 sobre el río Liffey.",
+    "location": { "latitude": 53.3463, "longitude": -6.2631, "locality": "Dublín" }
+  },
+  {
+    "id": "poi-river-liffey",
+    "name": "Río Liffey",
+    "category": "generic",
+    "description": "El río que divide Dublín en dos, eje vertebral de la historia y la vida de la ciudad.",
+    "location": { "latitude": 53.3466, "longitude": -6.2622, "locality": "Dublín" }
+  },
+  {
+    "id": "poi-dublin-castle",
+    "name": "Castillo de Dublín",
+    "category": "generic",
+    "description": "Antigua sede del gobierno británico en Irlanda, un complejo histórico con patios y jardines.",
+    "location": { "latitude": 53.3429, "longitude": -6.2674, "locality": "Dublín" }
   }
 ]

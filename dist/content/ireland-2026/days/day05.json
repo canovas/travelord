@@ -1,20 +1,78 @@
 {
   "id": "day05",
-  "title": "Costa de Clare",
+  "title": "The Burren: Cuevas, Dólmenes y Costa",
   "date": "19/08/2026",
-  "summary": "Lahinch, Ennistymon y las playas de Clare.",
+  "summary": "Explora el paisaje único del Burren visitando cuevas, aves rapaces, monumentos prehistóricos, jardines, carreteras panorámicas y una de las playas más bonitas del condado de Clare.",
   "timeline": [
-    { "time": "09:00", "title": "🚗 Salida hacia Lahinch" },
-    { "time": "10:00", "title": "🌊 Lahinch Beach" },
-    { "time": "12:00", "title": "🌉 Ennistymon" },
-    { "time": "15:00", "title": "🥩 Market House Ennistymon" },
-    { "time": "17:00", "title": "🏖️ Fanore Beach" }
+    {
+      "time": "08:00",
+      "title": "☕ Desayuno en la casa"
+    },
+    {
+      "time": "09:00",
+      "title": "🚗 Salida hacia The Burren"
+    },
+    {
+      "time": "10:15",
+      "title": "🦅 Aillwee Cave y Birds of Prey"
+    },
+    {
+      "time": "12:30",
+      "title": "🪨 Poulnabrone Dolmen"
+    },
+    {
+      "time": "13:00",
+      "title": "🍽️ Comida en Monks (Ballyvaughan)"
+    },
+    {
+      "time": "14:30",
+      "title": "🌸 Burren Perfumery"
+    },
+    {
+      "time": "15:30",
+      "title": "🍫 Hazel Mountain Chocolate"
+    },
+    {
+      "time": "16:15",
+      "title": "🌊 Black Head Drive"
+    },
+    {
+      "time": "17:00",
+      "title": "🏖️ Fanore Beach"
+    },
+    {
+      "time": "18:00",
+      "title": "🚗 Regreso hacia Cahernagarry"
+    },
+    {
+      "time": "19:30",
+      "title": "🏡 Llegada al alojamiento"
+    }
   ],
   "stops": [
-    { "entityId": "poi-lahinch" },
-    { "entityId": "poi-liscannor" },
-    { "entityId": "poi-ennistymon" },
-    { "entityId": "poi-market-house-ennistymon" },
-    { "entityId": "poi-fanore-beach" }
+    {
+      "entityId": "poi-aillwee-cave"
+    },
+    {
+      "entityId": "poi-birds-of-prey-centre"
+    },
+    {
+      "entityId": "poi-poulnabrone-dolmen"
+    },
+    {
+      "entityId": "food-monks-ballyvaughan"
+    },
+    {
+      "entityId": "poi-burren-perfumery"
+    },
+    {
+      "entityId": "poi-hazel-mountain-chocolate"
+    },
+    {
+      "entityId": "poi-black-head-drive"
+    },
+    {
+      "entityId": "poi-fanore-beach"
+    }
   ]
 }

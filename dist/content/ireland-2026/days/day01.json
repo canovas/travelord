@@ -6,10 +6,9 @@
   "timeline": [
     { "time": "14:20", "title": "✈️ Salida Alicante (FR1323)" },
     { "time": "16:10", "title": "🛬 Llegada Shannon Airport" },
-    { "time": "17:30", "title": "🚗 Recogida coche de alquiler" },
-    { "time": "18:40", "title": "🛒 Compra de llegada en McInerney's SuperValu Loughrea (abre 07:00–23:00)" },
-    { "time": "19:15", "title": "🏡 Llegada a Cahernagarry House" },
-    { "time": "20:30", "title": "🍽️ Cena de bienvenida" }
+    { "time": "17:30", "title": "🚗 Recogida del coche de la familia (HomeExchange)" },
+    { "time": "18:40", "title": "🛒 Compra en McInerney's SuperValu Loughrea" },
+    { "time": "19:15", "title": "🏡 Llegada a Cahernagarry House" }
   ],
   "stops": [
     { "entityId": "trans-shannon-airport" },

@@ -1,11 +1,70 @@
 {
   "id": "day08",
-  "title": "Último día en Irlanda",
+  "title": "Ennistymon y Compras Gastronómicas",
   "date": "22/08/2026",
-  "summary": "Tiempo libre y preparativos para el regreso.",
+  "summary": "Último día completo dedicado a descubrir Ennistymon, realizar las compras gastronómicas del viaje y disfrutar de una cena especial en la casa con productos locales de County Clare.",
   "timeline": [
-    { "time": "10:00", "title": "☕ Mañana tranquila" },
-    { "time": "17:00", "title": "🧳 Preparación de equipaje" }
+    {
+      "time": "08:30",
+      "title": "☕ Desayuno tranquilo en la casa"
+    },
+    {
+      "time": "10:00",
+      "title": "🚗 Salida hacia Ennistymon"
+    },
+    {
+      "time": "11:00",
+      "title": "🌊 Ennistymon Falls y paseo por el pueblo"
+    },
+    {
+      "time": "12:00",
+      "title": "🥩 Compras en Market House y tiendas locales"
+    },
+    {
+      "time": "13:30",
+      "title": "🍽️ Comida en Ennistymon"
+    },
+    {
+      "time": "15:00",
+      "title": "🧀 Compras gastronómicas para llevar a España"
+    },
+    {
+      "time": "16:30",
+      "title": "🚗 Regreso hacia Cahernagarry"
+    },
+    {
+      "time": "17:30",
+      "title": "🥩 Preparar la última gran cena en la casa"
+    },
+    {
+      "time": "20:00",
+      "title": "🍽️ Cena de despedida"
+    }
   ],
-  "stops": []
+  "stops": [
+    {
+      "entityId": "poi-ennistymon"
+    },
+    {
+      "entityId": "poi-ennistymon-falls"
+    },
+    {
+      "entityId": "poi-market-house-ennistymon"
+    },
+    {
+      "entityId": "shop-lunasa-farm-butchery"
+    },
+    {
+      "entityId": "shop-burren-seafoods"
+    },
+    {
+      "entityId": "shop-cs-fish-shop"
+    },
+    {
+      "entityId": "shop-burren-smokehouse"
+    },
+    {
+      "entityId": "food-pot-duggan"
+    }
+  ]
 }

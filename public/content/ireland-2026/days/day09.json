@@ -2,14 +2,57 @@
   "id": "day09",
   "title": "Regreso a Alicante",
   "date": "23/08/2026",
-  "summary": "Vuelo de regreso desde Shannon.",
+  "summary": "Último día del viaje. Preparación del equipaje, devolución del vehículo y regreso desde Shannon Airport con tiempo suficiente para viajar sin prisas.",
   "timeline": [
-    { "time": "08:45", "title": "🚗 Devolución coche Shannon" },
-    { "time": "10:50", "title": "✈️ Salida del vuelo" },
-    { "time": "14:35", "title": "🛬 Llegada a Alicante" }
+    {
+      "time": "07:30",
+      "title": "☕ Desayuno y últimas compras si fueran necesarias"
+    },
+    {
+      "time": "08:00",
+      "title": "🧳 Preparar equipaje y revisar la casa"
+    },
+    {
+      "time": "09:00",
+      "title": "🧹 Salida del alojamiento"
+    },
+    {
+      "time": "10:15",
+      "title": "⛽ Repostar combustible cerca de Shannon Airport"
+    },
+    {
+      "time": "10:45",
+      "title": "🚗 Devolución del coche"
+    },
+    {
+      "time": "11:00",
+      "title": "🛫 Llegada a Shannon Airport"
+    },
+    {
+      "time": "11:30",
+      "title": "☕ Café y últimas compras en el aeropuerto"
+    },
+    {
+      "time": "13:20",
+      "title": "✈️ Salida hacia Alicante (FR1322)"
+    },
+    {
+      "time": "17:00",
+      "title": "🛬 Llegada a Alicante"
+    }
   ],
   "stops": [
-    { "entityId": "poi-antes-de-salir-de-la-casa" },
-    { "entityId": "poi-antes-de-devolver-el-coche" }
+    {
+      "entityId": "acc-cahernagarry-house"
+    },
+    {
+      "entityId": "poi-shannon-petrol-station"
+    },
+    {
+      "entityId": "transport-return-car"
+    },
+    {
+      "entityId": "trans-shannon-airport"
+    }
   ]
 }

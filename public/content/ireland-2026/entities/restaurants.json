@@ -99,5 +99,61 @@
     "tips": ["Precio aprox: 20-30€/persona."],
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Connemara%20Woodfire%20Letterfrack",
     "location": { "latitude": 53.5535, "longitude": -9.9472, "locality": "Letterfrack" }
+  },
+  {
+    "id": "food-veldons-seafarer",
+    "name": "Veldon\u0027s Seafarer",
+    "category": "pub",
+    "description": "Pub galardonado famoso por su marisco fresco, crema de marisco y ambiente náutico tradicional.",
+    "address": "Letterfrack, Co. Galway",
+    "location": { "latitude": 53.5543, "longitude": -9.9482, "locality": "Letterfrack" }
+  },
+  {
+    "id": "food-oar-restaurant",
+    "name": "Oar Restaurant",
+    "category": "restaurant",
+    "description": "Restaurante de alta calidad en Doolin especializado en productos locales de temporada.",
+    "address": "Fisher St, Doolin, Co. Clare",
+    "location": { "latitude": 53.0152, "longitude": -9.3815, "locality": "Doolin" }
+  },
+  {
+    "id": "food-gus-oconnors",
+    "name": "Gus O\u0027Connor\u0027s Pub",
+    "category": "pub",
+    "description": "Pub mundialmente famoso en Doolin, conocido por su música tradicional irlandesa y su comida casera.",
+    "address": "Fisher St, Doolin, Co. Clare",
+    "location": { "latitude": 53.0149, "longitude": -9.3811, "locality": "Doolin" }
+  },
+  {
+    "id": "food-monks-ballyvaughan",
+    "name": "Monks Ballyvaughan",
+    "category": "restaurant",
+    "description": "Famoso restaurante de marisco y pub situado frente al muelle de Ballyvaughan.",
+    "address": "The Pier, Ballyvaughan, Co. Clare",
+    "location": { "latitude": 53.1197, "longitude": -9.1467, "locality": "Ballyvaughan" }
+  },
+  {
+    "id": "food-linnanes-lobster-bar",
+    "name": "Linnane\u0027s Lobster Bar",
+    "category": "restaurant",
+    "description": "Bar de langostas situado en el muelle con vistas espectaculares, especializado en marisco fresco.",
+    "address": "New Quay, Co. Clare",
+    "location": { "latitude": 53.1554, "longitude": -9.0711, "locality": "New Quay" }
+  },
+  {
+    "id": "food-pot-duggan",
+    "name": "Pot Duggan\u0027s",
+    "category": "pub",
+    "description": "Pub moderno y acogedor en Ennistymon con buena comida y un ambiente relajado junto al río.",
+    "address": "Ennistymon, Co. Clare",
+    "location": { "latitude": 52.9405, "longitude": -9.2936, "locality": "Ennistymon" }
+  },
+  {
+    "id": "food-the-brazen-head",
+    "name": "The Brazen Head",
+    "category": "pub",
+    "description": "El pub más antiguo de Irlanda (fundado en 1198), un lugar cargado de historia y música en vivo.",
+    "address": "20 Lower Bridge St, Usher\u0027s Quay, Dublin 8",
+    "location": { "latitude": 53.3449, "longitude": -6.2764, "locality": "Dublín" }
   }
 ]
