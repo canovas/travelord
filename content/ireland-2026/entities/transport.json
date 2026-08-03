@@ -3,8 +3,14 @@
     "id": "trans-shannon-airport",
     "name": "Aeropuerto de Shannon",
     "category": "airport",
-    "description": "Llegada y salida de los vuelos FR1323 y FR1322. Para la llegada, la ruta recomendada es Aeropuerto de Shannon → McInerney's SuperValu Loughrea → Cahernagarry House.",
-    "mapsUrl": "https://www.google.com/maps/dir/?api=1&origin=52.6997%2C-8.9147&destination=53.2016%2C-8.5711&waypoints=McInerney%27s%20SuperValu%20Loughrea&travelmode=driving",
+    "description": "Llegada y salida de los vuelos FR1323 y FR1322.",
     "location": { "latitude": 52.6997, "longitude": -8.9147, "locality": "Shannon" }
+  },
+  {
+    "id": "transport-return-car",
+    "name": "Devolución de Coche Shannon",
+    "category": "airport",
+    "description": "Punto de entrega del vehículo de alquiler en el aeropuerto de Shannon.",
+    "location": { "latitude": 52.6941, "longitude": -8.9221, "locality": "Shannon" }
   }
 ]

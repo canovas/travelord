@@ -6,7 +6,35 @@
     "description": "Supermercado para la compra de llegada: básicos para desayunos, agua y provisiones. Abre todos los días de 07:00 a 23:00.",
     "address": "Loughrea Shopping Centre, Athenry Road, Loughrea, Co. Galway, H62 P588",
     "website": "https://supervalu.ie/store-locator/",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=McInerney%27s%20SuperValu%20Loughrea",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=McInerney's%20SuperValu%20Loughrea",
     "location": { "latitude": 53.2019, "longitude": -8.5744, "locality": "Loughrea" }
+  },
+  {
+    "id": "shop-lunasa-farm-butchery",
+    "name": "Lúnasa Farm Butchery",
+    "category": "generic",
+    "description": "Carnicería de granja con productos orgánicos y carnes locales de alta calidad.",
+    "location": { "latitude": 52.9401, "longitude": -9.2945, "locality": "Ennistymon" }
+  },
+  {
+    "id": "shop-burren-seafoods",
+    "name": "Burren Seafoods",
+    "category": "generic",
+    "description": "Pescadería especializada en productos frescos del Atlántico y la zona del Burren.",
+    "location": { "latitude": 53.1189, "longitude": -9.1472, "locality": "Ballyvaughan" }
+  },
+  {
+    "id": "shop-cs-fish-shop",
+    "name": "CS Fish Shop",
+    "category": "generic",
+    "description": "Pescadería local con una excelente selección de pescado fresco y marisco.",
+    "location": { "latitude": 52.9325, "longitude": -9.3461, "locality": "Lahinch" }
+  },
+  {
+    "id": "shop-burren-smokehouse",
+    "name": "Burren Smokehouse",
+    "category": "generic",
+    "description": "Famoso ahumadero donde comprar el mejor salmón ahumado artesanal de Irlanda.",
+    "location": { "latitude": 53.0155, "longitude": -9.3805, "locality": "Lisdoonvarna" }
   }
 ]
